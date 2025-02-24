@@ -3588,22 +3588,6 @@ SeqIO.write(records, "rev_comp.fasta", "fasta")
 #https://github.com/biopython/biopython/blob/master/Doc/examples/PF05371_seed.sth
 ```
 
-
-```python
-#install BioPython package
-pip install BioPython
-```
-
-
-      File "<ipython-input-1-3940621b78b4>", line 2
-        pip install BioPython
-                  ^
-    SyntaxError: invalid syntax
-
-
-
-
-```python
 #import AlignIO
 from Bio import AlignIO
 ```
@@ -7464,23 +7448,6 @@ flann_matches = cv2.drawMatchesKnn(apple_jacks, kp1, cereals, kp2, good, None, f
 
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    error                                     Traceback (most recent call last)
-
-    <ipython-input-75-374f041743a7> in <module>
-    ----> 1 flann_matches = cv2.drawMatchesKnn(apple_jacks, kp1, cereals, kp2, good, None, flags = 0)
-    
-
-    error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'drawMatchesKnn'
-    > Overload resolution failed:
-    >  - Can't parse 'matches1to2'. Sequence item with index 0 has a wrong type
-    >  - Can't parse 'matches1to2'. Sequence item with index 0 has a wrong type
-
-
-
-
 ```python
 # We can add a mask
 sift = cv2.SIFT_create()
@@ -7523,15 +7490,6 @@ matchesMask =matchesMask, flags=0)
 flann_matches = cv2.drawMatchesKnn(apple_jacks, kp1, cereals,kp2 matches, None, **draw_params)
 display(flann_matches)
 ```
-
-
-      File "<ipython-input-95-39064ef6da2c>", line 1
-        flann_matches = cv2.drawMatchesKnn(apple_jacks, kp1, cereals,kp2 matches, None, **draw_params)
-                                                                               ^
-    SyntaxError: invalid syntax
-
-
-
 
 ```python
 
